@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>תכנון עימוד - גלי לי מה</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        pre {
+            font-family: monospace;
+            white-space: pre;
+            direction: ltr;
+        }
+        .page-layout {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-4 md:p-8">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl font-bold mb-8 text-center">תכנון עימוד - "גלי לי מה" 📚</h1>
+        
+        <!-- עקרונות מנחים -->
+        <div class="bg-white rounded-lg p-6 mb-8 shadow-md">
+            <h2 class="text-xl font-bold mb-4">עקרונות מנחים 🎯</h2>
+            <ul class="list-disc list-inside space-y-2">
+                <li>כל טקסט בגובה קבוע בתחתית העמוד</li>
+                <li>איורים מרכזיים תמיד באותו גודל יחסי</li>
+                <li>מרווח קבוע בין איורים לטקסט</li>
+                <li>אפקטים קסומים באותו סגנון וגודל</li>
+                <li>גלימה מופיעה באותו גודל בכל פעם</li>
+                <li>פלטת צבעים עקבית</li>
+            </ul>
+        </div>
+
+        <!-- כריכה -->
+        <div class="page-layout shadow-md">
+            <h3 class="text-lg font-bold mb-4">כריכה (עמוד 1)</h3>
+            <pre class="bg-gray-50 p-4 rounded mb-4">
+┌─────────────────────────┐
+│         כותרת          │
+│                         │
+│    איור מרכזי של        │
+│    ילד/ה וגלימה        │
+│                         │
+│     אפקטים קסומים      │
+│                         │
+└─────────────────────────┘</pre>
+            <div class="mt-4">
+                <h4 class="font-bold mb-2">הערות:</h4>
+                <ul class="list-disc list-inside">
+                    <li>כותרת בולטת</li>
+                    <li>איור מרכזי של הילד/ה</li>
+                    <li>אפקטים קסומים עדינים</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- עמודים 2-3 -->
+        <div class="page-layout shadow-md">
+            <h3 class="text-lg font-bold mb-4">עמודים 2-3</h3>
+            <pre class="bg-gray-50 p-4 rounded mb-4">
+┌─────────────┬─────────────┐
+│  זכויות     │    איור     │
+│  יוצרים     │             │
+│  (מינימלי)  │    ילד      │
+│             │   בפעילות   │
+│             │   יומיומית  │
+│             │             │
+├─────────────┼─────────────┤
+│             │    טקסט     │
+└─────────────┴─────────────┘</pre>
+            <div class="mt-4">
+                <h4 class="font-bold mb-2">הערות:</h4>
+                <ul class="list-disc list-inside">
+                    <li>עמוד 2 מינימליסטי</li>
+                    <li>עמוד 3 מציג את הילד בסביבתו הטבעית</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- המשך העמודים... -->
+        
+    </div>
+</body>
+</html>
